@@ -1,3 +1,5 @@
+import sys
+
 number = 17
 print("Hello You!, ik ben Piter")
 print("Wie ben jij?")
@@ -17,7 +19,8 @@ while True:
 
     elif (int(xe) > number ):
         print("Dan ben jij ouder")
-
+    wait = input()
+    sys.exit()
           
         
     
