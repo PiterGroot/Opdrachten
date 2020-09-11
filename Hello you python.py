@@ -51,7 +51,7 @@ def checkAwnser():
         print("Doei!")
         sys.exit()
     else:
-        print('Invalid input, voer alstublieft "y / n" in.' + "\n")
+        print('Invalid input, voer alstublieft "y" / "n" in.' + "\n")
         checkAwnser()
 
 checkAwnser()
