@@ -48,7 +48,7 @@ def checkAwnser():
         os.execl(sys.executable, '"{}"'.format(sys.executable), *sys.argv)  
         
     if (yes_no == "n"):      
-        print("Doei")
+        print("Doei!")
         sys.exit()
     else:
         print('Invalid input, voer alstublieft "y / n" in.' + "\n")
