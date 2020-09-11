@@ -45,7 +45,6 @@ def checkAwnser():
     print("Wil je dit programma nog een keer opnieuw uitvoeren (y / n)")
     yes_no = input()
     if (yes_no == "y"):
-        print("hoi")
         os.execl(sys.executable, '"{}"'.format(sys.executable), *sys.argv)  
         
     if (yes_no == "n"):      
