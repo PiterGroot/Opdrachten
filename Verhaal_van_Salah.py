@@ -184,9 +184,7 @@ def q8():
   elif choice in answer_C:
     q9()
   else:
-    print (required)
-    time.sleep(3)
-    q8()
+    q9()
 #KLAAR
 def q9():
   os.system('cls')
