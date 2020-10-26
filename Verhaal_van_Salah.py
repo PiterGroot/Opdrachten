@@ -22,7 +22,7 @@ def Restart():
         print("Typ alstublieft 'y' of 'n' in.")
         time.sleep(3)
         Restart()
-#speler kan A en a, B en b, C en c antwoorden
+#speler kan A en a, B en b, C en c en Y, y, N, n antwoorden
 answer_A = ["A", "a"]
 answer_B = ["B", "b"]
 answer_C = ["C", "c"]
